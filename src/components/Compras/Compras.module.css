@@ -4,11 +4,13 @@
   flex-direction: column;
   background-color: rgb(253, 209, 251);
   border-radius: 10px;
-  margin: 10px 30px;
+  margin: 0 30px 10px 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .listas h3 {
-  padding: 10px 0 5px 5px;
+  padding: 0 0 5px 5px;
 }
 
 .lista {
