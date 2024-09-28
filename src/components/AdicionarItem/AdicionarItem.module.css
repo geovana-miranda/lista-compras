@@ -1,0 +1,46 @@
+.adicionarItem {
+    padding: 30px ;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+}
+
+.adicionarItem h2 {
+    margin-bottom: 10px;
+}
+  
+.adicionarItem form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+  
+.adicionarItem input {  
+    margin: 0 auto;
+    width: 80%;
+    height: 1.8em;  
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #f0efef;
+}
+
+.adicionarItem input::placeholder {
+    font-size: 0.8em;
+    text-align: center;
+}
+  
+  .adicionarItem button {
+    width: 25%; 
+    height: 2.4em;
+    border: none;
+    border-radius: 10px;
+    background-color: #b0a6dd;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }

@@ -1,0 +1,39 @@
+.listas {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253, 209, 251);
+  border-radius: 10px;
+  margin: 10px 30px;
+}
+
+.listas h3 {
+  padding: 10px 0 5px 5px;
+}
+
+.lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemLista {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 1em;  
+}
+
+.itemLista li {
+    list-style-type: none;
+    font-size: 0.9em;
+    color: rgb(68, 66, 66);
+    font-weight: 400;
+}
+
+.itemComprado {
+    text-decoration: line-through;
+    color: rgb(80, 79, 79);
+}
